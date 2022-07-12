@@ -24,16 +24,16 @@ static int (*check_for_specifiers(const char *format))(va_list)
 		{"r", print_r},
 		{"R", print_R},
 		{NULL, NULL}
-		};
+	};
 
-		for (i = 0; p[i].t != NULL; i++)
+	for (i = 0; p[i].t != NULL; i++)
+	{
+		if (*(p[i].t) == *format)
 		{
-			if (*(p[i].t) == *format)
-			{
-				break;
-			}
+			break;
 		}
-		return (p[i].f);
+	}
+	return (p[i].f);
 }
 
 /**
