@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 		}
 		if (!format[i])
 			return (count);
-		f = check_for_specifiers(&format[i + 1]);
+		
 		if (f != NULL)
 		{
 			count += f(valist);
