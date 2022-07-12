@@ -24,8 +24,8 @@ This ALX first team project is all about printf() functions.
 	* va_arg (man 3 va_arg)
 
 ## Mandatory Task
-* [] Write a function that produces output according to a format by handling `c` `s` `%` conversion specifiers
-* [] Handle `d` and `i` conversion specifiers
+* [ ] Write a function that produces output according to a format by handling `c` `s` `%` conversion specifiers
+* [ ] Handle `d` and `i` conversion specifiers
 
 ## Advanced Task
 
