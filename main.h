@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdlib.h>
 #include <stdarg.h>
@@ -73,4 +73,4 @@ int print_address(va_list l, flags_t *f);
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
 
-#endif
+#endif /*_MAIN_H */
