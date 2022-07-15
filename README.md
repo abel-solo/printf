@@ -9,4 +9,5 @@ This ALX first team project is all about printf() functions.
 * Application of Variadic functions
 
 ## Project Requirements
-
+* encouraged working together
+* facilitate team work
