@@ -40,7 +40,7 @@ UNUSED(buffer);
 UNUSED(flags);
 UNUSED(width);
 UNUSED(precision);
-NUSED(size);
+UNUSED(size);
 if (str == NULL)
 {
 str = "(null)";
